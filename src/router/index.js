@@ -20,12 +20,12 @@ const routes = [
   },
   {
     path: '/jobs',
-    name: Jobs,
+    name: 'Jobs',
     component: Jobs
   },
   {
     path: '/jobs/:id',
-    name: JobDetails,
+    name: 'JobDetails',
     component: JobDetails
   }
 ]
